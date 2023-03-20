@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resurv Office Noakhali</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="btnlog.css">
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+</head>
+
+<body>
+    <header>
+        <div class="head">
+            <div class="head-left">
+                <div class="logo">
+                    <img src="images/policelogo.jpg" alt="Police Logo">
+                </div>
+            </div>
+            <div class="head-middle">
+                <h1>Resurv Office Noakhali</h1>
+                <p>Personnel Information <br>Management System</p>
+            </div>
+            <div class="right-left">
+                <div class="logo">
+                    <img src="images/splogo.png" alt="Police Logo">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mid">
+            <marquee behavior="" direction="">
+                আপনাকে নোয়াখালী রিজার্ভ অফিসের পক্ষ থেকে স্বাগতম!!!! জরুরী বার্তা :- সিডিএমএস রেজিষ্ট্রেশনের কাজ চলিতেছে। যাদের রেজিষ্ট্রেশন সম্পন্ন হয়েছে তারা নিছের CDMS Registrations বাটনে ক্লিক করে দেখে নিন। আর যাদের রেজিষ্ট্রেশন সম্পন্ন হয়নি তারা স্কিনে দেওয়া ফরটি পূরণ করে Submit বাটনে ক্লিক করুন........ আপনার তথ্য দিয়ে সিডিএমএস
+                রেজিষ্ট্রেশন সম্পন্ন করুন। তথ্য না দিলে আপনার রেজিষ্ট্রেশন ব্যার্থ হবে। পরবর্রীতে মেজর অফিস দায়ি থাকবে
+                না। ধন্যবাদ ..........................................................</marquee>
+        </div>
+        <div class="middles">
+            
+            <div class="mideRight">
+                <h2>Registrations</h2>
+                <div class="login">
+                    <div class="formLable">
+                        <p>Roll Number: </p>
+                        <p>Name: </p>
+                        <p>Gender: </p>
+                        <p>Quota: </p>
+                        <p>WhatsAppp Number: </p>
+                    </div>
+                    <div class="form">
+                            <form
+                                action="https://script.google.com/macros/s/AKfycbxXfCsaChW6AjZoJoBiQJ281rxYf-WJvO4rSyEL0TcbAhJFarbxewu1d6qkh4aovuSMbA/exec"
+                                method="POST">
+                                <input type="tel" name="cons" placeholder='Roll Number'required minlength="1" maxlength="4">
+                                <input type="text" name="name" placeholder='Name'>
+                                <input type="text" name="bp" placeholder='Gender'required minlength="4" maxlength="10">
+                                <input type="text" name="email" placeholder='Quota'required>
+                                <input type="tel" name="phone" placeholder='Phone'required maxlength="11">
+                                <input type="submit" id="sub">
+                            </form>
+                    </div>
+                </div>
+                        
+
+            </div>
+        </div>
+
+
+        <div class="information">
+                <h2>CDMS Information</h2>
+            <div class="details">
+                <p>Welcome to the Personnel Information Management System (PIMS) of Bangladesh Police. The PIMS is a
+                    secure system for only authorised users and is managed and maintained by PIMS Section of Police
+                    Headquarters. PIMS is a vital automated tool to assist effective Human Resource Management for
+                    BANGLADESH Police.Please check your data by login and update.Any queries or feedback</p>
+                <h5>PIMS Help Desk: <span> +8801641663596</span></h5>
+                <h5>Email: <span> towhidulislam258@gmail.com</span></h5>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Privacy | Terms of Use</p>
+        <p>Copyright © 2022 Bangladesh Police,</p>
+        <p>Design and Developed By : BP-MD TOWHIDUL ISLAM</p>
+    </footer>
+
+    <!-- <script>
+        let form = document.querySelector("form");
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            document.querySelector("#sub").value = "Submiting..";
+            let data = new FormData(form);
+            fetch('Paste_Your_Api_EndPoint_Url', {
+                    method: "POST",
+                    body: data
+                })
+                .then(res => res.text())
+                .then(data => {
+                    document.querySelector("#msg").innerHTML = data;
+                    document.querySelector("#sub").value = "Submit"
+                });
+        })
+    </script> -->
+</body>
+
+</html>
