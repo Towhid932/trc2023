@@ -118,6 +118,8 @@ marquee {
 .btn {
   width: 190px;
   height: 40px;
+  margin: 10px;
+  padding:5px;
   border: none;
   outline: none;
   color: #fff;
@@ -210,6 +212,7 @@ aside .sidebar h3 {
   width: 100%;
   margin-bottom: 1rem;
   padding-left: 1rem;
+  margin-top: 1rem;
   background-color: blue;
 }
 .login{
@@ -271,6 +274,7 @@ h1 {
   gap: 0.1rem;
 }
 .btn {
+  padding-top: .5rem;
   width: 40px;
   height: 15px;
   border-radius: 10px;
