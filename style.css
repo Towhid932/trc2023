@@ -318,3 +318,26 @@ form input[type="tel"],input[type="text"],input[type="email"]{
 
   
 }
+@media only screen and (max-width:500px) {
+  .middles {
+      width: 98vw;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+  
+  .formLable{
+    display:none;
+  }
+  .login{
+  display: flex;
+  }
+
+  form {
+  display: flex;
+  width:100%vw;
+  /* margin-right: 5px; */
+
+}
+
+}
