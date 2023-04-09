@@ -319,6 +319,9 @@ form input[type="tel"],input[type="text"],input[type="email"]{
   
 }
 @media only screen and (max-width:500px) {
+  h1 {
+  size: 1rem;
+}
   .middles {
       width: 98vw;
       margin: 0 auto;
@@ -338,6 +341,18 @@ form input[type="tel"],input[type="text"],input[type="email"]{
   width:100%vw;
   /* margin-right: 5px; */
 
+}
+  .btns{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: .5rem;
+}
+.btn {
+  margin: 5px;
+  padding:3px;
+}
+  .btns a{
+  font-size: .8rem;
 }
 
 }
